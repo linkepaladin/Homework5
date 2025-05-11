@@ -30,5 +30,15 @@ public class Main {
         for (int i = 10; i >= -10; i--) {
             System.out.println(i);
         }
+
+        // task 5
+
+        System.out.println("Задача 5");
+
+        for (int i = 1904;i <= 2096; i++) {
+            if ((i % 4 == 0 && i % 100 != 0) || i % 400 == 0) {
+                System.out.println("Это Високосный год: " + i);
+            }
+        }
     }
 }
