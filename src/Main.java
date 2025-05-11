@@ -67,5 +67,18 @@ public class Main {
             savingsAmount = savingsAmount + salary;
             System.out.println("Месяц " + i + ", сумма накоплений равна " + savingsAmount + " рублей ");
         }
+
+        // task 9
+
+        System.out.println("Задача 9");
+
+        int savingsAmount1 = 0;
+        int salary1 = 29000;
+        double interestRateInMonth = 0.01;
+        for (int i = 1; i <= 12; i++) {
+            savingsAmount1 = savingsAmount1 + salary1;
+            savingsAmount1 = (int) (savingsAmount1 + (savingsAmount1 * interestRateInMonth));
+            System.out.println("Месяц " + i + ", сумма накоплений равна " + savingsAmount1 + " рублей ");
+        }
     }
 }
