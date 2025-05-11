@@ -56,5 +56,16 @@ public class Main {
         for (int i = 1; i <= 512; i = i * 2) {
             System.out.println(i);
         }
+
+        // task 8
+
+        System.out.println("Задачв 8");
+
+        int savingsAmount = 0;
+        int salary = 29000;
+        for (int i = 1; i <= 12; i++) {
+            savingsAmount = savingsAmount + salary;
+            System.out.println("Месяц " + i + ", сумма накоплений равна " + savingsAmount + " рублей ");
+        }
     }
 }
