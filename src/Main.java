@@ -59,7 +59,7 @@ public class Main {
 
         // task 8
 
-        System.out.println("Задачв 8");
+        System.out.println("Задача 8");
 
         int savingsAmount = 0;
         int salary = 29000;
@@ -80,5 +80,16 @@ public class Main {
             savingsAmount1 = (int) (savingsAmount1 + (savingsAmount1 * interestRateInMonth));
             System.out.println("Месяц " + i + ", сумма накоплений равна " + savingsAmount1 + " рублей ");
         }
+
+        // task 10
+
+        System.out.println("Задача 10");
+
+        for (int i = 1; i <= 10; i++) {
+            int two = 2;
+            int multResult = two * i;
+            System.out.println(two + " * " + i + " = " + multResult);
+        }
+
     }
 }
