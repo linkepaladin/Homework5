@@ -48,5 +48,13 @@ public class Main {
         for (int i = 7; i <= 98; i = i + 7) {
             System.out.println(i);
         }
+
+        // task 7
+
+        System.out.println("Задача 7");
+
+        for (int i = 1; i <= 512; i = i * 2) {
+            System.out.println(i);
+        }
     }
 }
